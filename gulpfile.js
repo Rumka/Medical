@@ -1,6 +1,6 @@
 var gulp = require('gulp'),
 	sass = require('gulp-sass'),
-	browserSync = require('browser-sync'),
+    browserSync = require('browser-sync'),
 	concat      = require('gulp-concat'), // Подключаем gulp-concat (для конкатенации файлов)
     uglify      = require('gulp-uglifyjs'), // Подключаем gulp-uglifyjs (для сжатия JS)
     cssnano     = require('gulp-cssnano'), // Подключаем пакет для минификации CSS
