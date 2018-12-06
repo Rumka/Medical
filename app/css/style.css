@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   background-color: #ffffff;
   font-family: 'Open Sans', sans-serif;
@@ -77,13 +78,15 @@ body {
 
 .menu__item {
   display: inline-block;
-  margin: 10px;
-  padding: 10px; }
+  margin: 5px;
+  padding: 15px; }
   .menu__item:hover {
     background: #7b57bd;
-    -webkit-border-radius: 20px;
-            border-radius: 20px; }
+    -webkit-border-radius: 10px;
+            border-radius: 10px; }
   .menu__item a {
     color: #ffffff; }
     .menu__item a:hover {
       text-decoration: none; }
+
+/*----------------------слайдер----------*/
